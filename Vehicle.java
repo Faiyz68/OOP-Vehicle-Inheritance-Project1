@@ -35,7 +35,7 @@ void main(){
     c1.Brand="BMW";
     c1.year= 2015;
     c1.numberofdoors =4;
-    c1.Enginetype = "DIESEL"
+    c1.Enginetype = "DIESEL";
     c1.startengine();
     c1.display();
     Car c2 = new Car();
