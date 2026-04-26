@@ -1,6 +1,7 @@
 class Vehicle{
     String Brand;
     int year;
+    String Enginetype;
     Vehicle(){
         
     }
@@ -8,7 +9,7 @@ class Vehicle{
         System.out.println("THE VEHICLE'S ENGINE IS STARTING . . . ");
     }
     void display(){
-        System.out.println("BRAND " +  Brand  + " year : " + year  );
+        System.out.println("BRAND " +  Brand  + " year : " + year + " THE ENGINE TYPE IS " + Enginetype );
 
     }
 }
@@ -34,6 +35,7 @@ void main(){
     c1.Brand="BMW";
     c1.year= 2015;
     c1.numberofdoors =4;
+    c1.Enginetype = "DIESEL"
     c1.startengine();
     c1.display();
     Car c2 = new Car();
